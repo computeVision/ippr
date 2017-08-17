@@ -1,0 +1,1517 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass amsart
+\begin_preamble
+%\usepackage[notcite,notref]{showkeys}%Use the showkeys package to view labels. For draft version only!
+\usepackage {url}
+\usepackage [numbers]{natbib}
+\usepackage{hyperref}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+theorems-sec
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format pdf2
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Report Assignemnt 3
+\end_layout
+
+\begin_layout Author
+\noindent
+Peter LORENZ
+\end_layout
+
+\begin_layout Email
+peter.lorenz@student.tugraz.at
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\bbR}{\mathbb{R}}
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ccR}{\mathcal{R}}
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dlim}{\operatorname{\underrightarrow{{\rm lim}}}}
+{\underrightarrow{{\rm lim}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Ker}{\operatorname{\rm Ker}}
+{{\rm Ker}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\End}{\operatorname{\rm End}}
+{{\rm End}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\myint}[3]{\int_{#1}^{#2}\sin#3dx}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+
+\series bold
+Use your own Images and experiment with the Parameters! Can you describe
+ the Effects controlled by 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ and 
+\begin_inset Formula $\gamma$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+The standard values of 
+\begin_inset Formula $\alpha=0.0005$
+\end_inset
+
+ and 
+\begin_inset Formula $\gamma=0.0001$
+\end_inset
+
+.
+ Let's take a look to change them:
+\end_layout
+
+\begin_layout Itemize
+Change
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $\alpha$
+\end_inset
+
+: The bigger alpha, the bigger is the line width.
+ If alpha is 1, then it ignores the edges completely\SpecialChar endofsentence
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename make_derivatives_2D_0.005.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\alpha=0.005$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename make_derivatives_2D_5e-05.png
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\alpha=0.00005$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Change 
+\begin_inset Formula $\gamma$
+\end_inset
+
+: If the 
+\begin_inset Formula $\gamma=\infty$
+\end_inset
+
+ is very big 
+\begin_inset Formula $\lambda_{2}=\lambda_{1}=\alpha$
+\end_inset
+
+.
+ If the 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ is a big number, then the exponent in e is getting bigger because of the
+ negative sign, this means the 
+\begin_inset Formula $\lambda_{2}$
+\end_inset
+
+ is getting smaller.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename make_derivatives_2D_0.0005_0.001.png
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma=0.001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename make_derivatives_2D_0.0005_1e-05.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma=0.000001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Change 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, 
+\begin_inset Formula $\gamma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename make_derivatives_2D_0.0005_0.001.png
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma=0.001$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha=0.005$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename make_derivatives_2D_5e-06_1e-06.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma=0.000001$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha=0.000005$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename make_derivatives_2D_5e-05_0.001.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma=0.001$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha=0.000005$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename make_derivatives_2D_5e-05_0.001.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\gamma=0.000001$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha=0.005$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conclusio: 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ effects the diffusion to orthogonal direction to the edge and 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ into the direction of the edge.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\noindent
+
+\series bold
+Try a different discretization of the nabla Operator (make_Derivatives_hp_sym_2D
+).
+ What is the corresponding filter kernel that is implemented by this Discretizat
+ion? How does it change the result?
+\end_layout
+
+\begin_layout Standard
+First, I feed the function with a shape of 3x3 matrix: 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+\left[\begin{array}{ccc}
+0 & 1 & 2\\
+3 & 4 & 5\\
+6 & 7 & 8
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+OK, the function returns two arrays [9x9] with following values and the
+ 2 middle diagonals of 
+\begin_inset Formula $K_{x}$
+\end_inset
+
+ and 
+\begin_inset Formula $K_{y}$
+\end_inset
+
+ have the opposite signs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K_{x}$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+[[-0.5  0.5  0.
+  -0.5  0.5  0.
+   0.
+   0.
+   0.
+ ]  			
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+  -0.5  0.5  0.
+  -0.5  0.5  0.
+   0.
+   0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+  -0.5  0.5  0.
+  -0.5  0.5  0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+   0.
+  -0.5  0.5  0.
+  -0.5  0.5]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+ ]] 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $K_{y}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+[[-0.5 -0.5  0.
+   0.5  0.5  0.
+   0.
+   0.
+   0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+  -0.5 -0.5  0.
+   0.5  0.5  0.
+   0.
+   0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+  -0.5 -0.5  0.
+   0.5  0.5  0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+   0.
+  -0.5 -0.5  0.
+   0.5  0.5]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+ ]  
+\end_layout
+
+\begin_layout Plain Layout
+
+ [ 0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+   0.
+ ]]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+How come? I just try it for 
+\begin_inset Formula $K_{x}$
+\end_inset
+
+.
+ Parts of the matrix (formua 2.1) are taken and sticked together.
+ Afterwards, they are flatten row by row.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+i:        j:
+\end_layout
+
+\begin_layout Plain Layout
+
+0 1       0 1
+\end_layout
+
+\begin_layout Plain Layout
+
+3 4       3 4
+\end_layout
+
+\begin_layout Plain Layout
+
+---       ---
+\end_layout
+
+\begin_layout Plain Layout
+
+0 1       1 2
+\end_layout
+
+\begin_layout Plain Layout
+
+3 4       4 5
+\end_layout
+
+\begin_layout Plain Layout
+
+---       ---
+\end_layout
+
+\begin_layout Plain Layout
+
+0 1       3 4
+\end_layout
+
+\begin_layout Plain Layout
+
+3 4       6 7
+\end_layout
+
+\begin_layout Plain Layout
+
+--- 	  ---
+\end_layout
+
+\begin_layout Plain Layout
+
+0 1       3 4
+\end_layout
+
+\begin_layout Plain Layout
+
+3 4 	  6 7
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the end, you can read out the following values at index (i,j).
+ Those values are multiplied with the image itself.
+ This values are calculated only for 
+\begin_inset Formula $K_{x}$
+\end_inset
+
+.
+ The same is done with the 
+\begin_inset Formula $K_{y}$
+\end_inset
+
+ direction, just some 
+\begin_inset Formula $(-)0.5$
+\end_inset
+
+ are different.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+i: [[0][1][3][4][0][1][3][4][0][1][3][4][0][1][3][4]]
+\end_layout
+
+\begin_layout Plain Layout
+
+j: [[0][1][3][4][1][2][4][5][3][4][6][7][3][4][6][7]]
+\end_layout
+
+\begin_layout Plain Layout
+
+v: [[-0.5][-0.5][-0.5][-0.5][ 0.5][ 0.5][ 0.5][ 0.5]
+\end_layout
+
+\begin_layout Plain Layout
+
+    [-0.5][-0.5][-0.5][-0.5][ 0.5][ 0.5][ 0.5][ 0.5]]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As 
+\begin_inset Formula $\nabla$
+\end_inset
+
+ operator we vstack 
+\begin_inset Formula $K_{x}$
+\end_inset
+
+ and 
+\begin_inset Formula $K_{y}$
+\end_inset
+
+.
+ As you can see the submatrix, is never used:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula 
+\begin{equation}
+\left[\begin{array}{cc}
+4 & 5\\
+7 & 8
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Because of that the gradient is not fair in all directions and you can see
+ as an example that the left eyelid (our point of view) in the image.
+ If you look to the image 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:make_2d"
+
+\end_inset
+
+ the eyelid starts horizontal and then it follows the round form of the
+ eye ball.
+ In image 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:make_2d_hyp"
+
+\end_inset
+
+ it does not start with a horizontal line.
+ The shape is flexed from the beginning.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename make_derivatives_2D_0.005_1e-05.png
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+make_derivatives_2D (375 x 500)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename make_derivatives_2D_hyp.png
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+make_derivatives_hp_sym_2D (375 x 500)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename make_derivatives_2D_big.png
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:make_2d"
+
+\end_inset
+
+make_derivatives_2D (758 x 1024)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename make_derivatives_2D_hyp_big.png
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:make_2d_hyp"
+
+\end_inset
+
+make_derivatives_hp_sym_2D (758 x 1024)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
